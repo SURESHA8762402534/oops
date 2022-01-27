@@ -1,0 +1,147 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body{
+    background: url(https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcTjgG7fVGimhVOrX3rOxVFi7zfae7eLiwLWHA&usqp=CAU);
+    background-repeat: no-repeat;
+    background-size: cover;
+    height: 150vh;
+}
+
+h1{
+    background-color: blue;
+    color: tomato;
+    font-size: 40px;
+    font-weight: bold;
+    box-shadow: 0 0 20px blue;
+    text-align: center;
+    padding: 5px;
+   position: sticky;
+   top: 0;
+}
+.navbar{
+    background-color: black;
+    justify-content: center;
+    text-align: right;
+    align-items: center;
+    padding: 10px;
+    margin: 10px;
+    position: sticky;
+    top: 10vh;
+}
+.navbar #img{
+    width: 40px;
+    height:40px;
+    margin-left: 0;
+    margin-right: 60vw;
+
+}
+
+.navbar .span{
+    margin: 10px;
+    border: 1px solid rgb(255, 254, 254);
+    color: white;
+    border-radius: 10px;
+    font-size: 20px;
+    font-weight: bold;
+    cursor: pointer;
+    background-color: cornflowerblue;
+}
+.btn{
+    margin: 30px;
+    justify-content: center;
+    text-align: center;
+}
+.btn .crebtn{
+    background-color: green;
+    color: white;
+    cursor: pointer;
+    border-radius: 10px;
+    font-weight: bolder;
+    font-size: 40px;
+    margin-right: 30px;
+    box-shadow: 10px 0 20px green;
+} 
+.btn .rebtn{
+    box-shadow: 10px 0 20px red; 
+    background-color: red;
+    color: white;
+    cursor: pointer;
+    border-radius: 10px;
+    font-weight: bolder;
+    font-size: 40px
+    
+}
+.crebtn:hover{
+    background-color: greenyellow;
+    color: black;
+}
+.rebtn:hover{
+    background-color: indianred;
+    color: black;
+}
+table{
+    margin-top: 25vh;
+    margin-left: 20vw;
+    margin-right: 20vw;
+    width: 60vw;
+    border: 1px dotted black;
+    background-color: whitesmoke;
+}
+table .tr{
+    color: rgb(92, 43, 226);
+}
+
+td{
+    font-size: 30px;
+    font-weight: 900;
+    color: rgb(16, 16, 24);
+    width: 20vw;
+    padding: 5px;
+    border: 1px solid black;
+}
+
+.hide{
+    display: none;
+}
+.show{
+    display: table;
+}
+
+.form{
+    padding: 10px;
+    padding-bottom: 20px;
+    margin: 30px auto;
+    width: 30vw;
+    background-color: cornflowerblue;
+    color: cornsilk;
+    font-size: 25px;
+    font-weight: 800;
+    display: flexbox;
+    text-align: center;
+}
+.form img{
+    margin-top: 0;
+    margin-left: 90%;
+    margin-bottom: 0;
+    margin-right: 0;
+    font-size: 20px;
+    cursor: pointer;
+}
+.form h2{
+    color: crimson;
+}
+.form .submit{
+    cursor: pointer;
+    background-color: blue;
+    color: white;
+    border-radius: 5px;
+    font-size: 20px;
+    text-align: center;
+}
+.form .submit:hover{
+    background-color: violet;
+}
